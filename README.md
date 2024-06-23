@@ -281,3 +281,38 @@ The Airport Api can be accessed at the following endpoint:
     .....
 ]
 ```
+
+
+
+# Airplane Data
+
+This API provides information about Airplane Code, and name
+
+## API Endpoint
+
+The Airplane Api can be accessed at the following endpoint:
+
+[Countries API](https://api.travelpayouts.com/data/planes.json)
+
+`GET - https://api.travelpayouts.com/data/planes.json`
+
+### Response Data
+
+```  
+[
+    ....
+  {
+    "code": "JST",
+    "name": "British Aerospace Jetstream 31/32/41"
+  },
+  {
+    "code": "JU5",
+    "name": "Junkers Ju52"
+  },
+  {
+    "code": "L10",
+    "name": "Lockheed L-1011 Tristar"
+  },
+    .....
+]
+```
