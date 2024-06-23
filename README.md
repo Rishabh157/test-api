@@ -316,3 +316,42 @@ The Airplane Api can be accessed at the following endpoint:
     .....
 ]
 ```
+
+
+
+
+
+# Universites Data 
+
+This API provides information about Universites name, country, web page url, and domain
+
+## API Endpoint
+
+The Universites Api can be accessed at the following endpoint:
+
+[Countries API](http://universities.hipolabs.com/search?country=India)
+
+`GET - http://universities.hipolabs.com/search?country={name}`
+
+`GET - http://universities.hipolabs.com/search?country=United+States`
+
+### Response Data
+
+```  
+[
+    ....
+   {
+    "name": "Harvard University",
+    "alpha_two_code": "US",
+    "country": "United States",
+    "web_pages": [
+      "http://www.harvard.edu/"
+    ],
+    "state-province": null,
+    "domains": [
+      "harvard.edu"
+    ]
+  },
+    .....
+]
+```
