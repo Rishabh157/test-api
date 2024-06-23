@@ -242,3 +242,42 @@ The Countries API can be accessed at the following endpoint:
   },
   {..... more }
 ]
+```
+
+
+# Airport Data
+
+This API provides information about Airports Code, including details like City names, country codes, coordinates, timezone,  language and more.
+
+## API Endpoint
+
+The Airport Api can be accessed at the following endpoint:
+
+[Countries API](https://api.travelpayouts.com/data/en/cities.json)
+
+`GET - https://api.travelpayouts.com/data/en/cities.json`
+
+### Response Data
+
+```  
+[
+    ....
+  {
+    "name_translations": {
+      "en": "Mumbai"
+    },
+    "cases": {
+      "su": "Mumbai"
+    },
+    "country_code": "IN",
+    "code": "BOM",
+    "time_zone": "Asia/Kolkata",
+    "name": "Mumbai",
+    "coordinates": {
+      "lat": 19.095509,
+      "lon": 72.87497
+    }
+  },
+    .....
+]
+```
