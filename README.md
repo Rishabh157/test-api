@@ -355,3 +355,47 @@ The Universites Api can be accessed at the following endpoint:
     .....
 ]
 ```
+
+
+# Netflix Categories Data 
+
+This API provides information about original url of netflix domain,
+category name.
+
+## API Endpoint
+
+The Netflix categories Api can be accessed at the following endpoint:
+
+[Countries API](https://raw.githubusercontent.com/adeekshith/netflix-categories/master/webextension/data/data.json)
+
+`GET - https://raw.githubusercontent.com/adeekshith/netflix-categories/master/webextension/data/data.json`
+
+### Response Data
+
+```  
+[
+    ....
+    {
+      "category": "NetflixCategories",
+      "name": "Anime",
+      "api": "http://www.netflix.com/browse/genre/7424",
+      "pinned": false,
+      "last_used": 0
+    },
+    {
+      "category": "NetflixCategories",
+      "name": "Anime Comedies",
+      "api": "http://www.netflix.com/browse/genre/9302",
+      "pinned": false,
+      "last_used": 0
+    },
+    {
+      "category": "NetflixCategories",
+      "name": "Anime Dramas",
+      "api": "http://www.netflix.com/browse/genre/452",
+      "pinned": false,
+      "last_used": 0
+    },
+    .....
+]
+```
